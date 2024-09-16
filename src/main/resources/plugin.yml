@@ -1,0 +1,14 @@
+name: BlockDisguise
+version: '1.0-SNAPSHOT'
+main: winlyps.blockDisguise.BlockDisguise
+api-version: '1.20'
+authors: [ Winlyps ]
+commands:
+  blockdis:
+    description: Disguise as a block or reset the disguise
+    usage: /blockdis <nameoftheblock> or /blockdis reset
+    permission: blockdisguise.use
+permissions:
+  blockdisguise.use:
+    description: Allows the player to use the block disguise command
+    default: op
